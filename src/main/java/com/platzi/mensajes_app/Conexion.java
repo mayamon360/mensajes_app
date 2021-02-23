@@ -11,7 +11,7 @@ public class Conexion {
             
             conexion = DriverManager.getConnection("jdbc:mysql://localhost/mensajes_app?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrival=true", "root", "admin");
             if(conexion != null) {
-                System.out.println("Conexion exitosa");
+                System.out.println("Conexion exitosa!!");
             }
             
         } catch(Exception ex) {
